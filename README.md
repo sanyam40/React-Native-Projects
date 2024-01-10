@@ -11,6 +11,9 @@ This repository contains a collection of React Native projects focusing on diffe
 `3-CalculatorApp` <br>
 - The CalculatorApp is a practical application that consolidates the concepts learned in the previous apps (1-FirstApp and 2-Styler). It serves as a hands-on project, demonstrating how to integrate various React Native features into a functional calculator application.
 
+`4-PasswordGenerator`<br>
+- The PasswordGenerator app focuses on creating a password based on user preferences using Yup for schema validation and Formik for handling the form.
+
 ## Installation Guide
 To run any of the projects in this repository, follow these general steps:
 
