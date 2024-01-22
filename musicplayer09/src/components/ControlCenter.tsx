@@ -6,6 +6,10 @@ import Icon from 'react-native-vector-icons/MaterialIcons'
 
 export default function ControlCenter() {
   const playBackState=usePlaybackState();
+  const prev="<   "
+  const next="   >"
+  const pause="|| "
+  const play=">"
 
   const skipToNext=async()=>{
     await TrackPlayer.skipToNext();
@@ -28,18 +32,17 @@ export default function ControlCenter() {
   return (
     <View style={styles.container}>
       <Pressable onPress={skipToPrevious}>
-        <Icon style={styles.icon} name="skip-previous" size={40} />
+        <Text style={styles.control}>{prev} </Text>
       </Pressable>
 
       <Pressable onPress={() => togglePlayBack(playBackState)}>
-            <Icon 
-            style={styles.icon} 
-            name={playBackState.state === State.Playing ? "pause" : "play-arrow"}
-            size={75} />
+            {
+              playBackState.state=== State.Playing ?(<Text style={styles.control}>{pause}</Text>) : (<Text style={styles.control}>{play}</Text>)
+            }
         </Pressable>
 
       <Pressable onPress={skipToNext}>
-        <Icon style={styles.icon} name="skip-next" size={40} />
+        <Text style={styles.control}>{next}</Text>
       </Pressable>
       
     </View>
@@ -53,6 +56,9 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
+  },
+  control:{
+    fontSize:40
   },
   icon: {
     color: '#FFFFFF',
