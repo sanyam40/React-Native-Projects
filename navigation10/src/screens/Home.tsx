@@ -13,6 +13,7 @@ const Home = ({navigation}:HomeProps) => {
       <Text style={styles.smallText}>Home</Text>
       {/* <Button title="Go to Details" onPress={()=>navigation.navigate("Details", {productId: "123"})}/> */}
       <Button title="Go to Details" onPress={()=>navigation.push("Details", {productId: "123"})}/>
+      {/* <Button title="Go to Details" onPress={()=>navigation.replace("Details", {productId: "123"})}/> */}
 
     </View>
   )
