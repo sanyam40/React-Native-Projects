@@ -36,6 +36,14 @@ To run any of the projects in this repository, follow these general steps:
 <img width="192" alt="Screenshot 2024-01-08 225923" src="https://github.com/sanyam40/React-Native-Projects/assets/87993985/fac4115f-74f4-4782-84d9-a8c6fb7048ef">
 <img width="192" alt="Screenshot 2024-01-08 225923" src="https://github.com/sanyam40/React-Native-Projects/assets/87993985/9a4a6b0d-1f71-4ad6-a3c2-4ca42eeeeff5">
 <img width="192" alt="Screenshot 2024-01-08 225923" src="https://github.com/sanyam40/React-Native-Projects/assets/87993985/91d8d116-f5fa-4aa0-8487-2b7bf9a68c19">
+<img width="192" alt="Screenshot 2024-01-08 225923" src="https://github.com/sanyam40/React-Native-Projects/assets/87993985/d41eac89-c9bf-4a3d-89f2-e5ecf1c70b38">
+<img width="192" alt="Screenshot 2024-01-08 225923" src="https://github.com/sanyam40/React-Native-Projects/assets/87993985/d0a45937-2970-44f0-9520-b6d36797e680">
+<img width="192" alt="Screenshot 2024-01-08 225923" src="https://github.com/sanyam40/React-Native-Projects/assets/87993985/fec4e199-cff0-4a2e-895d-db463cc7a2b6">
+
+
+
+
+
 
 
 
